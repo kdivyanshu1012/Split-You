@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 1.unity
+    guid: 75051543787a8874ab8e23e989bb241d
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2.unity
+    guid: 21fa60414a3c4f44891c8ba643dd1677
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3.unity
+    guid: c3378894f4467e442b8c89455ed21f00
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 4.unity
+    guid: 9212a8dc975e531448aaf8ddf73c9c01
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 5.unity
+    guid: dfa7d8bd1866a1c4a992b7a4ef26a541
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 6.unity
+    guid: 40a96bbabd13182449f78726f92d21aa
+  - enabled: 1
+    path: Assets/Scenes/Menus/Level Select.unity
+    guid: 7b5c878cd5f7fab44ab3ab0fb7ab7717
+  - enabled: 1
+    path: Assets/Scenes/Menus/Main Menu.unity
+    guid: f58e3bf5d59978a47aa0b69f218a93bc
+  - enabled: 1
+    path: Assets/Scenes/Menus/Level Complete.unity
+    guid: 92c3bc42440d3c64894d1ffc02145ee3
+  - enabled: 1
+    path: Assets/Scenes/Menus/End Scene.unity
+    guid: 53faab95180db3642840c77f88abac0b
+  - enabled: 1
+    path: Assets/Scenes/Menus/Instructions Menu.unity
+    guid: de4818aa291f67a43b1f0133fbdfd189
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 206ebdd90c6ca244580a61f597b468a5, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: d6164a606d6339943b02f30e80b7641f, type: 3}
+  m_UseUCBPForAssetBundles: 0
