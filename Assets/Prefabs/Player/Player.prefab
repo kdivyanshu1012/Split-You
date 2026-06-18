@@ -115,7 +115,8 @@ MonoBehaviour:
   playerRigidbody: {fileID: 6170569980861255553}
   playerAnimator: {fileID: 8278351610366720223}
   jumpForce: 13
-  speed: 6
+  speed: 8
+  canMove: 1
   coyoteTime: 0.15
 --- !u!1 &4205860060914718694
 GameObject:
@@ -196,7 +197,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -344005295
-  m_SortingLayer: 4
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8644832591467991550, guid: 7642e73c9a90dc14d8535cdc2dbe289c, type: 3}

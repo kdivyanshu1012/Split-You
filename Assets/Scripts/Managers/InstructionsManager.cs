@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class InstructionsManager : MonoBehaviour
 {
-    [SerializeField] private TransitionManager transitionManager;
+    
     public void HomeButton()
     {
-        transitionManager.LoadScene("Main Menu");
+        SceneManager.LoadSceneAsync("Main Menu");
     }
 }

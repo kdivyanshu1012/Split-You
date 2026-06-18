@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 public class LevelCompleteMenu : MonoBehaviour
 {
     [SerializeField] private int levels = 6;
-    [SerializeField] TransitionManager transitionManager;
+    
     public static int lastLevelIndex;
     public void NextLevel()
     {
@@ -16,18 +16,18 @@ public class LevelCompleteMenu : MonoBehaviour
         }
         else
         {
-            transitionManager.LoadScene("End Scene");
+            SceneManager.LoadSceneAsync("End Scene");
         }
 
     }
 
     public void levelGrid()
     {
-        transitionManager.LoadScene("Level Select");
+        SceneManager.LoadSceneAsync("Level Select");
     }
 
     public void MainMenu()
     {
-        transitionManager.LoadScene("Main Menu");
+        SceneManager.LoadSceneAsync("Main Menu");
     }
 }

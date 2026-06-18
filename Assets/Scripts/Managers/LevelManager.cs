@@ -10,7 +10,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Animator doorAnim;
     [SerializeField] private Animator cloneAnim;
     [SerializeField] private float duration = 2f;
-    [SerializeField] private TransitionManager transitionManager;
+    
     
     
 
@@ -26,7 +26,7 @@ public class LevelManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            transitionManager.LoadScene("Level Complete");
+            SceneManager.LoadSceneAsync("Level Complete");
         }
         
     }
@@ -47,7 +47,7 @@ public class LevelManager : MonoBehaviour
         doorAnim.SetBool("levelCompleted", true);
         cloneAnim.SetBool("levelCompleted", true);
         yield return new WaitForSeconds(duration);
-        transitionManager.LoadScene("Level Complete");
+        SceneManager.LoadSceneAsync("Level Complete");
     }
 
     

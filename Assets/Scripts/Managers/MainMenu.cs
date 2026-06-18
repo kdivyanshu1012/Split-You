@@ -1,17 +1,18 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] private TransitionManager transitionManager;
+    
     public void playButton()
     {
-        transitionManager.LoadScene("Level Select");
+        SceneManager.LoadSceneAsync("Level Select");
     }
 
     public void instructionsButton()
     {
-        transitionManager.LoadScene("Instructions Menu");
+        SceneManager.LoadSceneAsync("Instructions Menu");
     }
 
     public void exitButton()
