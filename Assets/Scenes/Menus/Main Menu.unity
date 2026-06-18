@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 519823624}
   - component: {fileID: 519823623}
   m_Layer: 5
-  m_Name: instructions
+  m_Name: settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -247,7 +247,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 474817179}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: instructionsButton
+        m_MethodName: settingsButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

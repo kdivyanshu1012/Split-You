@@ -10,9 +10,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync("Level Select");
     }
 
-    public void instructionsButton()
+    public void settingsButton()
     {
-        SceneManager.LoadSceneAsync("Instructions Menu");
+        SceneManager.LoadSceneAsync("Settings Menu");
     }
 
     public void exitButton()
