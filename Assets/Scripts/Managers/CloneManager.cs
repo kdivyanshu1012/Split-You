@@ -26,6 +26,7 @@ public class CloneManager : MonoBehaviour
     {
         if (Input.GetKeyDown(cloneKey))
         {
+            
             SpawnClone();
         }
     }
@@ -58,6 +59,7 @@ public class CloneManager : MonoBehaviour
             spawnPos,
             Quaternion.identity
         );
+        AudioManager.Instance.PlaySFX(9);
 
         playerMovement cloneScript = cloneInstance.GetComponent<playerMovement>();
 

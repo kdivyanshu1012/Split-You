@@ -22,6 +22,7 @@ public class RespawnManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
+            AudioManager.Instance.PlaySFX(12);
             Invoke("Respawn",0.2f);
         }
     }
@@ -53,9 +54,11 @@ public class RespawnManager : MonoBehaviour
 
         // Spawn new player
         SpawnPlayer();
+        
 
         if (cloneManager != null)
         {
+
             cloneManager.player = currentPlayer.transform;
         }
 

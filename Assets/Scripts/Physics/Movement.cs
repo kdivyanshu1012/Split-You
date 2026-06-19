@@ -64,6 +64,7 @@ public class playerMovement : MonoBehaviour
             if (jumpRequested)
             {
                 YVelocity = jumpForce;
+                AudioManager.Instance.PlaySFX(3);
                 jumpRequested = false;
             }
 

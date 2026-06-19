@@ -19,6 +19,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (isPaused)
         {
+            
             isPaused = false;
             Time.timeScale = 1;
             pauseMenu.SetActive(false);
@@ -33,6 +34,7 @@ public class PauseMenu : MonoBehaviour
     
     public void LevelSelect()
     {
+        AudioManager.Instance.PlaySFX(4);
         SceneManager.LoadSceneAsync("Level Select");
         Resume();
     }
@@ -40,11 +42,13 @@ public class PauseMenu : MonoBehaviour
     [System.Obsolete]
     public void Restart()
     {
+        AudioManager.Instance.PlaySFX(12);
         respawnManager.Respawn();
         Resume();
     }
     public void Resume()
     {
+        
         isPaused = false;
         Time.timeScale = 1;
         pauseMenu.SetActive(false);
@@ -52,6 +56,7 @@ public class PauseMenu : MonoBehaviour
     
     public void PauseButton()
     {
+        AudioManager.Instance.PlaySFX(4);
         isPaused = true;
         Time.timeScale = 0;
         pauseMenu.SetActive(true);

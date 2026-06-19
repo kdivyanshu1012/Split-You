@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
     public Door cloneDoor;
     [SerializeField] private Animator doorAnim;
     [SerializeField] private Animator cloneAnim;
-    [SerializeField] private float duration = 2f;
+    [SerializeField] private float duration = 0.4f;
     
     
     
@@ -46,6 +46,7 @@ public class LevelManager : MonoBehaviour
         
         doorAnim.SetBool("levelCompleted", true);
         cloneAnim.SetBool("levelCompleted", true);
+        AudioManager.Instance.PlaySFX(2);
         yield return new WaitForSeconds(duration);
         SceneManager.LoadSceneAsync("Level Complete");
     }

@@ -12,10 +12,12 @@ public class LevelCompleteMenu : MonoBehaviour
         
         if (nextIndex < levels)
         {
+            AudioManager.Instance.PlaySFX(4);
             SceneManager.LoadSceneAsync(nextIndex);
         }
         else
         {
+            AudioManager.Instance.PlaySFX(4);
             SceneManager.LoadSceneAsync("End Scene");
         }
 
@@ -23,11 +25,13 @@ public class LevelCompleteMenu : MonoBehaviour
 
     public void levelGrid()
     {
+        AudioManager.Instance.PlaySFX(4);
         SceneManager.LoadSceneAsync("Level Select");
     }
 
     public void MainMenu()
     {
+        AudioManager.Instance.PlaySFX(4);
         SceneManager.LoadSceneAsync("Main Menu");
     }
 }
