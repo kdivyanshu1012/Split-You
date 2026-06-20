@@ -26,7 +26,7 @@ public class LevelManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadSceneAsync("Level Complete");
+            SceneManager.LoadSceneAsync("Main Menu");
         }
         
     }
