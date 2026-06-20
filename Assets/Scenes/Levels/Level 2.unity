@@ -6546,7 +6546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "R - Restart Level \nEsc - Level Grid\n\nAvoid Pits!"
+  m_text: "R - Restart Level \nEsc - Main Menu\n\nAvoid Pits!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e5a1c9c08428844eb1582ce9f88876b, type: 2}
   m_sharedMaterial: {fileID: 1749561912881043622, guid: 0e5a1c9c08428844eb1582ce9f88876b, type: 2}

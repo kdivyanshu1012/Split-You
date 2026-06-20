@@ -357,11 +357,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'C - Clone
-
-    WASD - Movement
-
-    Open Both Doors To Win'
+  m_text: "C - Clone\nWASD - Movement\nW Key To Open Door Whenever In Range\nOpen
+    Both Doors To Win \n(player - green, clone - pink)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e5a1c9c08428844eb1582ce9f88876b, type: 2}
   m_sharedMaterial: {fileID: 1749561912881043622, guid: 0e5a1c9c08428844eb1582ce9f88876b, type: 2}
