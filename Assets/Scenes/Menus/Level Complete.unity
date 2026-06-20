@@ -967,7 +967,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 42805940635312999, guid: 4f4a64792232a454ab2c3dd61b4e3593, type: 3}
       propertyPath: levels
-      value: 6
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 42805940635312999, guid: 4f4a64792232a454ab2c3dd61b4e3593, type: 3}
       propertyPath: levels.Array.size
