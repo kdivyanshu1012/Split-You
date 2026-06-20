@@ -117,7 +117,7 @@ MonoBehaviour:
   jumpForce: 13
   speed: 8
   canMove: 1
-  coyoteTime: 0.15
+  coyoteTime: 0.01
 --- !u!1 &4205860060914718694
 GameObject:
   m_ObjectHideFlags: 0

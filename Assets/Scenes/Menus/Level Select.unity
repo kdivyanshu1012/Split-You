@@ -168,7 +168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2, y: -62.333336}
+  m_AnchoredPosition: {x: 6, y: -145}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313828
@@ -191,8 +191,8 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 50, y: 50}
-  m_Spacing: {x: 4.03, y: 1.2}
+  m_CellSize: {x: 120, y: 120}
+  m_Spacing: {x: 6.3, y: 1.2}
   m_Constraint: 1
   m_ConstraintCount: 4
 --- !u!1001 &131900935
@@ -513,11 +513,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3304762737316428397, guid: 4798b8d655d61c24586a339d8c0bc5f3, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 40
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3304762737316428397, guid: 4798b8d655d61c24586a339d8c0bc5f3, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 40
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3304762737316428397, guid: 4798b8d655d61c24586a339d8c0bc5f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -553,7 +553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3304762737316428397, guid: 4798b8d655d61c24586a339d8c0bc5f3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -193.45514
+      value: -459
       objectReference: {fileID: 0}
     - target: {fileID: 3304762737316428397, guid: 4798b8d655d61c24586a339d8c0bc5f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1371,7 +1371,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
