@@ -46,14 +46,14 @@ TagManager:
   - name: Background
     uniqueID: 1629934949
     locked: 0
+  - name: Door
+    uniqueID: 2816353171
+    locked: 0
   - name: Walls
     uniqueID: 4121934129
     locked: 0
   - name: Ground
     uniqueID: 3599733357
-    locked: 0
-  - name: Door
-    uniqueID: 2816353171
     locked: 0
   - name: Clone
     uniqueID: 2101984999
